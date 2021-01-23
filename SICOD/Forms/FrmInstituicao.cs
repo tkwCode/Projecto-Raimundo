@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SICOD
+namespace SICOD.Forms
 {
-    public partial class Form1 : Form
+    public partial class FrmInstituicao : Form
     {
-        public Form1( )
+        public FrmInstituicao( )
         {
             InitializeComponent();
         }
