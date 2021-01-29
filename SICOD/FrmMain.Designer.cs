@@ -37,15 +37,15 @@
             this.adicionarUsuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
             this.editarUsuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripSeparator();
+            this.usuariosDoSistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripSeparator();
+            this.editarPerfilDoUsuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripSeparator();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.médicosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.adicionarMédicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripSeparator();
-            this.usuariosDoSistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripSeparator();
-            this.editarPerfilDoUsuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.distribuirMédicosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pacientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gerenciarPacientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -54,16 +54,18 @@
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fazerConsultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
             this.dockPanel = new QBinary.UI.Docking.DockPanel();
+            this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripSeparator();
+            this.visualizarPacientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -136,6 +138,28 @@
             this.editarUsuárioToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.editarUsuárioToolStripMenuItem.Text = "Editar Pessoa";
             // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(191, 6);
+            // 
+            // usuariosDoSistemaToolStripMenuItem
+            // 
+            this.usuariosDoSistemaToolStripMenuItem.Name = "usuariosDoSistemaToolStripMenuItem";
+            this.usuariosDoSistemaToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.usuariosDoSistemaToolStripMenuItem.Text = "Usuarios do Sistema";
+            // 
+            // toolStripMenuItem6
+            // 
+            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(191, 6);
+            // 
+            // editarPerfilDoUsuárioToolStripMenuItem
+            // 
+            this.editarPerfilDoUsuárioToolStripMenuItem.Name = "editarPerfilDoUsuárioToolStripMenuItem";
+            this.editarPerfilDoUsuárioToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.editarPerfilDoUsuárioToolStripMenuItem.Text = "Editar Perfil do Usuário";
+            // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
@@ -169,28 +193,6 @@
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
             this.toolStripMenuItem4.Size = new System.Drawing.Size(167, 6);
             // 
-            // toolStripMenuItem5
-            // 
-            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(191, 6);
-            // 
-            // usuariosDoSistemaToolStripMenuItem
-            // 
-            this.usuariosDoSistemaToolStripMenuItem.Name = "usuariosDoSistemaToolStripMenuItem";
-            this.usuariosDoSistemaToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
-            this.usuariosDoSistemaToolStripMenuItem.Text = "Usuarios do Sistema";
-            // 
-            // toolStripMenuItem6
-            // 
-            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(191, 6);
-            // 
-            // editarPerfilDoUsuárioToolStripMenuItem
-            // 
-            this.editarPerfilDoUsuárioToolStripMenuItem.Name = "editarPerfilDoUsuárioToolStripMenuItem";
-            this.editarPerfilDoUsuárioToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
-            this.editarPerfilDoUsuárioToolStripMenuItem.Text = "Editar Perfil do Usuário";
-            // 
             // distribuirMédicosToolStripMenuItem
             // 
             this.distribuirMédicosToolStripMenuItem.Name = "distribuirMédicosToolStripMenuItem";
@@ -202,7 +204,9 @@
             this.pacientesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.gerenciarPacientesToolStripMenuItem,
             this.toolStripMenuItem7,
-            this.controlarTratamentoToolStripMenuItem});
+            this.controlarTratamentoToolStripMenuItem,
+            this.toolStripMenuItem8,
+            this.visualizarPacientesToolStripMenuItem});
             this.pacientesToolStripMenuItem.Name = "pacientesToolStripMenuItem";
             this.pacientesToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.pacientesToolStripMenuItem.Text = "Pacientes";
@@ -235,7 +239,7 @@
             // fazerConsultaToolStripMenuItem
             // 
             this.fazerConsultaToolStripMenuItem.Name = "fazerConsultaToolStripMenuItem";
-            this.fazerConsultaToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            this.fazerConsultaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.fazerConsultaToolStripMenuItem.Text = "Fazer consulta";
             // 
             // toolStrip1
@@ -257,21 +261,6 @@
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
-            // 
             // toolStripButton1
             // 
             this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -290,6 +279,11 @@
             this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton2.Text = "toolStripButton2";
             // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
             // toolStripButton3
             // 
             this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -298,6 +292,11 @@
             this.toolStripButton3.Name = "toolStripButton3";
             this.toolStripButton3.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton3.Text = "toolStripButton3";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
             // toolStripButton4
             // 
@@ -316,6 +315,11 @@
             this.toolStripButton5.Name = "toolStripButton5";
             this.toolStripButton5.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton5.Text = "toolStripButton5";
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
             // 
             // toolStripButton6
             // 
@@ -343,6 +347,17 @@
             this.dockPanel.TabInativelBorderColor = System.Drawing.Color.LightGray;
             this.dockPanel.TabIndex = 2;
             this.dockPanel.TabNormalBorderColor = System.Drawing.Color.Gainsboro;
+            // 
+            // toolStripMenuItem8
+            // 
+            this.toolStripMenuItem8.Name = "toolStripMenuItem8";
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(185, 6);
+            // 
+            // visualizarPacientesToolStripMenuItem
+            // 
+            this.visualizarPacientesToolStripMenuItem.Name = "visualizarPacientesToolStripMenuItem";
+            this.visualizarPacientesToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.visualizarPacientesToolStripMenuItem.Text = "Visualizar Pacientes";
             // 
             // FrmMain
             // 
@@ -409,6 +424,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripButton toolStripButton6;
         private QBinary.UI.Docking.DockPanel dockPanel;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem8;
+        private System.Windows.Forms.ToolStripMenuItem visualizarPacientesToolStripMenuItem;
     }
 }
 
